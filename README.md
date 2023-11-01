@@ -4,7 +4,9 @@ A simple script to generate a pdf or an html page from a [eta](https://eta.js.or
 
 ## Install
 
-`npm install -g https://github.com/NessunoZero/racejdoc`
+```shell
+npm install -g racejdoc
+```
 
 ## Usage
 
