@@ -10,26 +10,22 @@ npm install -g racejdoc
 
 ## Usage
 
-After installation just run it in a terminal to get a guide about usage and options.
+After the installation run **racejdoc** to get help on how to use the tool. 
 
-```shell
-racejdoc
-```
+If the installation went well the output should be something like this:
 
-Should output something like this:
-
-![picture](./resource/terminal_usage.png)
+![picture](./resource/terminal_usage.jpg)
 
 ## Example with template and data in this repo
 
-After installation
+After the installation
 
 ```shell
 racejdoc -t examples_templates/01.eta --data data_objects/01.json -o output/out.pdf
 racejdoc -t examples_templates/01.eta --data data_objects/01.json -o output/out.html -w
 ```
 
-this two command will generate the html and pdf version of the example into the [output](output/) folder
+this two commands will generate an html and a pdf version of the example into the [output](output/) folder
 
 ## Contribute
 
@@ -40,17 +36,17 @@ npm i
 npm link .
 ```
 
-To install dependencies locally and add your editable version to the binary of your computer
+To install dependencies locally and add your editable version of `racejdoc` to your machine.
 
 ### Modify the linked script
 
-And to modify the script itself, edit the typescript file [cli.ts](cli.ts) and then run
+To modify the script, edit the typescript file [cli.ts](cli.ts) and then run
 
 ```shell
 npm run build
 ```
 
-Or you can just "hot-reload" your `racejdoc` linked version editing while is running the following command
+Or you can just **"hot-reload"** your personal `racejdoc` running the following command
 
 ```shell
 npm run start:dev

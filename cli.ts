@@ -40,7 +40,7 @@ function main() {
     .boolean("w")
     .default("w", false)
     .alias("w", "webpage")
-    .describe("w", "ask for an html output")
+    .describe("w", "sets output format to HTML")
     .usage(
       `A cli to generate a pdf from two file, template eta and data yml\n
       usage: $0 -t ./template.eta -d ./data.yml -o out.pdf`
