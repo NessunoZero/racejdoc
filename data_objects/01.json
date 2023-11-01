@@ -1,0 +1,14 @@
+{
+  "number": 78,
+  "five": 5,
+  "arr": ["one", "two", "three", "four"],
+  "obj": {
+    "key1": "val1",
+    "key2": "val2",
+    "key3": "val3"
+  },
+  "users": [
+    { "name": "Ben", "job": "Maintainer" },
+    { "name": "Joe", "job": "Maintainer" }
+  ]
+}

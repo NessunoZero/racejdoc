@@ -1,0 +1,6 @@
+{
+  "watch": ["cli.ts"],
+  "ext": ".ts,.js",
+  "ignore": [],
+  "exec": "npm run build"
+}

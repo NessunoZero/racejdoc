@@ -1,0 +1,49 @@
+OK, so have fun! :D
+-------------------
+<%
+    var fruits = ["Apple", "Pear", "Orange", "Lemon"]
+      , random = " ".repeat(18).split("").map(x => Math.random())
+%>
+
+These fruits are amazing:
+<% for(var i = 0; i < fruits.length; ++i) {%>
+
+  - <%=fruits[i]%>s<% } %>
+
+
+Let's see some random numbers:
+
+<% random.forEach((c, i) => {
+%> <%=c.toFixed(10) + ((i + 1) % 6 === 0 ? "\n": "") %><%});%>
+
+You can put any JS inside tags:
+-------------------------------
+
+2+4 = <%= 2+4 %>
+
+<% /* This template is rendered with the following data:
+
+var renderData = {
+  number: 78,
+  five: 5,
+  arr: ['one', 'two', 'three', 'four'],
+  obj: {
+    key1: 'val1',
+    key2: 'val2',
+    key3: 'val3'
+  },
+  users: [{ name: 'Ben', job: 'Maintainer' },
+    { name: 'Joe', job: 'Maintainer' }]
+}
+
+and 1 partial, "mypartial"
+*/ %>
+
+Call functions
+--------------
+<%= it.five %>
+
+
+Display arrays
+--------------
+<%= it.arr.join() %>

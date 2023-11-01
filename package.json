@@ -1,0 +1,37 @@
+{
+  "name": "racejdoc",
+  "version": "1.0.0",
+  "description": "A cli to generate a pdf from two file, template eta js and data json/yml",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx rimraf ./cli.js && tsc",
+    "start:dev": "npx nodemon"
+  },
+  "bin": {
+    "racejdoc": "index.js"
+  },
+  "keywords": [
+    "doc",
+    "json",
+    "html",
+    "pdf",
+    "generate",
+    "eta"
+  ],
+  "author": "Biagio Ruggiero",
+  "license": "ISC",
+  "dependencies": {
+    "eta": "^3.1.1",
+    "puppeteer": "^21.4.1",
+    "yaml": "^2.3.3",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.0",
+    "@types/yargs": "^17.0.29",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
