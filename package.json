@@ -1,6 +1,6 @@
 {
   "name": "racejdoc",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A cli to generate a pdf from two file, template eta js and data json/yml",
   "main": "index.js",
   "scripts": {
