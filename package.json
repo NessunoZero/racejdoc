@@ -11,6 +11,10 @@
   "bin": {
     "racejdoc": "index.js"
   },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
   "keywords": [
     "doc",
     "json",
