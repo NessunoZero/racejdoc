@@ -1,6 +1,6 @@
 {
   "name": "racejdoc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A cli to generate a pdf from two file, template eta js and data json/yml",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,11 @@
     "eta"
   ],
   "author": "Biagio Ruggiero",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nessunozero/racejdoc.git"
+  },
   "dependencies": {
     "eta": "^3.1.1",
     "puppeteer": "^21.4.1",
